@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Helvetica', 'Verdana', 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0px;
+    padding: 5px;
+    color: rgb(255, 0, 0);
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: rgb(255, 0, 0); }
+    50% { color: rgb(0, 255, 0); }
+    100% { color: rgb(0, 0, 255); }
+}
+
+ul {
+    list-style-type: disc;  /* Default bullet point */
+    padding: 10px;
+    margin: 30px;
+}
+
+.photo {
+    width: 700px;
+    height: auto;
+    border: 5px solid rgb(255, 0, 0);
+    margin: 20px auto;
+    display: block;
+}
+
+a {
+    background-color: lightblue;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+
